@@ -1,0 +1,68 @@
+.hero__content {
+  padding-top: 70px;
+}
+.hero__content h5{
+   color: #fff;
+}
+.hero__title {
+  font-size: 2.5rem;
+  line-height: 55px;
+}
+
+.hero__title span {
+  color: #ff960f;
+}
+
+.hero__content p {
+  font-size: 1rem;
+  line-height: 30px;
+  color: #fff;
+}
+
+.hero__content h5{
+  color:#141414;
+}
+.hero__btns button {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.order__btn {
+  background: #ff960f;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.order__btn:hover {
+  background: #141414;
+}
+.all__foods-btn {
+  background: transparent;
+  border: 1px solid #ff960f !important;
+}
+
+.all__foods-btn a {
+  color: #ff960f;
+  transition: 0.3s;
+
+}
+.all__foods-btn a:hover {
+  color: #141414;
+}
+.hero__service p {
+  color: #141414;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.shipping__icon i {
+  padding: 5px;
+  background: #ff960f;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 500 !important;
+}
