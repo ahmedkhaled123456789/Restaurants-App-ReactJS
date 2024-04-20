@@ -11,15 +11,18 @@ import "./index.css";
 import store from "./store/store";
 import { Provider } from "react-redux";
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter  } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <Provider store={store}>
+          <Provider store={store}>
+
+    <BrowserRouter>
+
         <App />
-      </Provider>
-    </Router>
+    </BrowserRouter>
+    </Provider>
+
   </React.StrictMode>,
   document.getElementById("root")
 );
